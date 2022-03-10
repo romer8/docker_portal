@@ -24,7 +24,7 @@ services:
       - ./data/tethys:/var/lib/tethys_persist
       - ./logs/tethys:/var/log/tethys
   db:
-    image: postgres
+    image: postgis/postgis:latest
     restart: always
     volumes:
       - ./data/db:/var/lib/postgresql/data
