@@ -1,0 +1,558 @@
+#GeneralLoading, #loading-add-group, #loading-add-service, #loading-folders {
+    position: fixed;
+    z-index: 100000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#app-content-wrapper {
+    overflow-y: hidden;
+}
+
+#app-content-wrapper #app-content {
+    height: 100%;
+    padding-bottom: 0px;
+    /* when the graph is on */
+}
+
+#app-content-wrapper.show-nav #app-content {
+    padding-right: 300px;
+}
+
+#app-content-wrapper #app-content #app-actions {
+    background-color: transparent !important;
+}
+
+#inner-app-content {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    padding: 0 0 0 0;
+    position: relative;
+}
+
+#app-content-wrapper #app-content #app-navigation {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background: #efefef;
+    padding: 0 0px;
+    padding-top: 1%;
+}
+
+#app-content-wrapper #app-content #app-navigation .nav {
+    margin: 0.3em;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    flex: 1 1 10%;
+    order: 1;
+    overflow-y: hidden;
+}
+
+option[aria-disabled=true] {
+    opacity: .5;
+}
+
+ul {
+    margin: 30px;
+}
+
+td {
+    width: 100vw;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.modal-body {
+    overflow: auto;
+}
+
+.modal {
+  overflow-y:auto;
+}
+
+.check_hs_delete, .chkbx-group, .attr-checkbox {
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #555;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    padding: 0;
+    transform: scale(1.3);
+}
+
+.check_hs_delete:checked, .chkbx-group:checked, .attr-checkbox:checked {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    top: 1px;
+    padding: 0;
+    position: relative;
+    transform: scale(1.3);
+}
+
+.check_hs_delete:hover, .chkbx-group:hover, .attr-checkbox:hover {
+    position: relative;
+    border-radius: 5px;
+    border: 2px solid #555;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    padding: 0;
+    transform: scale(1.3);
+}
+
+.check_hs_delete:checked:hover, .chkbx-group:checked:hover, .attr-checkbox:checked:hover {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    top: 1px;
+    padding: 0;
+    position: relative;
+    transform: scale(1.3);
+}
+
+.view-file {
+    height: 20%;
+}
+
+.toggle.btn-xs {
+    margin-left: 1em;
+}
+
+.panel {
+    margin-bottom: 0px;
+}
+
+/* check this */
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    width: 70%;
+    padding-right: 1%;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-left: 0;
+}
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+    border-radius: 20px;
+}
+
+.toggle.ios .toggle-handle {
+    border-radius: 20px;
+}
+
+[data-notify="container"] {
+    width: 50%;
+}
+
+/*
+#map2 {
+    width: 100%;
+    height: 40vh;
+}
+ */
+
+/*.vertical_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons_spatial {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+.button_h {
+    flex: 0 0 30%;
+    margin-right: 20px;
+}
+
+
+.inputsty {
+    width: 100%;
+}
+
+.FootNote {
+    text-align: left;
+}
+
+.button-group-temp {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.input-color {
+    position: relative;
+}
+
+.input-color span {
+    padding-left: 50px;
+}
+
+.color-box {
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    background-color: #ccc;
+    position: absolute;
+    left: 5px;
+    border: 1px solid black;
+}
+
+#modalCrazy {
+    width: unset;
+    height: fit-content;
+}
+
+.header-btns p {
+    font-size: 1.1em;
+    padding-top: 5%;
+    font-weight: bold;
+}
+
+#myInput, #myInputKeyword {
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+.hsinfo {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #666;
+}
+
+.hs_title, .hs_url {
+    word-break: break-all;
+    padding-left: 4%;
+}
+
+.hs_url {
+    padding-left: 4%;
+}
+
+.hs_title {
+    padding-left: 1%;
+}
+
+#plotsDis {
+    width: 100%;
+    height: 90%;
+}
+
+.containerTime {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerTime {
+    width: 100%;
+}
+
+.hmbrgr-div {
+    width: 22px;
+    height: 22px;
+    border-radius: 2px;
+}
+
+.hmbrgr-div:hover {
+    box-shadow: 0 1px 1px 1px #bbbbbb;
+}
+
+.hmbrgr-div img {
+    width: 18px;
+    margin: 2px;
+}
+
+.hmbrgr-open {
+    background-color: #a1a1a1;
+}
+
+#buttonsBar {
+    margin-left: 10%;
+}
+
+.no_groups_tag {
+    color: #cc2418;
+    align-items: center;
+}
+
+#variables_id {
+    font-weight: bold;
+}
+
+#modalHydroserInformation .modal {
+    display: block !important;
+}
+
+#modalHydroserInformation .modal-dialog {
+    overflow-y: initial !important
+}
+
+#modalHydroserInformation .modal-body #infoTable {
+    height: 250px;
+    overflow-y: auto;
+}
+
+#modalKeyWordSearch .modal-body #groups_variables {
+    height: 250px;
+    overflow-y: auto;
+}
+
+#modalShowVariables .modal {
+    display: block !important;
+}
+
+#modalShowVariables .modal-dialog {
+    overflow-y: initial !important
+}
+
+#modalShowVariables .modal-body #hideScroll {
+    height: 250px;
+    overflow-y: auto;
+}
+
+#titleSite {
+    font-weight: bold;
+}
+
+#titleSite button {
+    margin-left: 5%;
+}
+
+#settingsID {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 5%;
+    z-index: 999 !important;
+    background-color: #286090;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+}
+
+.chkbx-variables {
+    position: relative;
+    right: 0.5em;
+    background-color: #337ab7;
+    border-color: #007bff;
+    transform: scale(2.4);
+    border-width: 1px;
+
+}
+
+.chkbx-variables:hover {
+    position: relative;
+    right: 0.5em;
+    background-color: #286090;
+    border-color: #204d74;
+    transform: scale(2.4);
+}
+
+.chkbx-variables:checked {
+    position: relative;
+    right: 0.5em;
+    background-color: #337ab7;
+    border-color: #007bff;
+    padding: 0;
+}
+
+.chkbx-layers {
+    position: relative;
+    right: 1em;
+    background-color: #337ab7;
+    border-color: #007bff;
+    transform: scale(1.7);
+    border-width: 1px;
+}
+
+.chkbx-layers:hover {
+    position: relative;
+    right: 1em;
+    background-color: #286090;
+    border-color: #204d74;
+    transform: scale(1.7);
+}
+
+.chkbx-layers:checked {
+    position: relative;
+    right: 1em;
+    background-color: #337ab7;
+    border-color: #007bff;
+    padding: 0;
+}
+
+.chkbx-layer {
+    position: relative;
+    right: 1em;
+    border-radius: 5px;
+    border: 2px solid #555;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    padding: 0;
+    transform: scale(1.3);
+}
+
+.chkbx-layer:checked {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    top: 1px;
+    padding: 0;
+    position: relative;
+    right: 1em;
+    transform: scale(1.3);
+}
+
+.chkbx-layer:hover {
+    position: relative;
+    right: 1em;
+    border-radius: 5px;
+    border: 2px solid #555;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    padding: 0;
+    transform: scale(1.3);
+}
+
+.chkbx-layer:checked:hover {
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
+    top: 1px;
+    padding: 0;
+    position: relative;
+    right: 1em;
+    transform: scale(1.3);
+}
+
+#variablesLoading2, #KeywordLoading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.image_button {
+    width: 100%
+}
+
+.image_button img {
+    border-radius: 0.5em;
+    border-color: gray;
+    width: 6.5%;
+    border: 2px solid gray;
+    display: inline-block;
+}
+
+.imitate_p {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+
+#left-content {
+    justify-content: center;
+    width: 100%;
+    padding: 0.5em;
+}
+
+#groups_countries, #groups_variables {
+    width: 100%;
+}
+
+#tableLegend {
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 20%;
+    word-break: break-all;
+}
+
+#tableLegend {
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    max-width: 30%;
+    word-break: break-all;
+}
+
+#tableLegend {
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    max-width: 30%;
+    word-break: break-all;
+}
+
+#tableLegend {
+    position: absolute;
+    top: 3%;
+    right: 1%;
+    padding: 0.5em;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    max-width: 100%;
+    word-break: break-all;
+}
+
+#btn-download-waterml, #btn-download-csv {
+    margin: 0.1em;
+}
+
+#siteVariableTable th {
+    font-weight: normal;
+    word-break: break-all;
+}
+
+#siteVariableTable .danger th {
+    font-weight: bold;
+}
+
+#hideScroll2 {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.spacer_fake {
+    width: 1.3em;
+}
+
+.modal-backdrop {
+    display: none;
+}
+
+.example-open .modal-backdrop {
+    background-color: black;
+    display: inline-block;
+    opacity: 0.8;
+}
+
+#groups_hydroservers {
+    margin: 0.5%;
+}
+
+, .carousel-control .icon-next
+*/

@@ -1,0 +1,27 @@
+You are currently running TDS version 4.6.20 - 2022-02-16T14:14:47-0800
+Latest Available TDS Version Info:
+    latest stable version = 5.1
+    latest maintenance version = 4.6.17
+
+initCatalogs(): initializing 1 root catalogs.
+
+**************************************
+Catalog init catalog.xml
+[2022-03-10T16:33:58.878Z]
+initCatalog catalog.xml -> /usr/local/tomcat/content/thredds/catalog.xml
+
+-------readCatalog(): full path=/usr/local/tomcat/content/thredds/catalog.xml; path=catalog.xml
+----Catalog Validation
+
+ added rootPath=<test>  for directory= </usr/local/tomcat/content/thredds/public/testdata/>
+ added rootPath=<testAll>  for directory= </usr/local/tomcat/content/thredds/public/testdata>
+  add static catalog to hash=catalog.xml
+  catref.getXlinkHref=enhancedCatalog.xml
+initCatalog enhancedCatalog.xml -> /usr/local/tomcat/content/thredds/enhancedCatalog.xml
+
+-------readCatalog(): full path=/usr/local/tomcat/content/thredds/enhancedCatalog.xml; path=enhancedCatalog.xml
+----Catalog Validation
+*** XML parser error (64:15)= cvc-complex-type.2.4.a: Invalid content was found starting with element 'addID'. One of '{"http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":namer, "http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":sort, "http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":addLatest, "http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":addProxies, "http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":addDatasetSize, "http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0":addTimeCoverage}' is expected.
+
+ added rootPath=<testEnhanced>  for directory= </usr/local/tomcat/content/thredds/public/testdata/>
+  add static catalog to hash=enhancedCatalog.xml

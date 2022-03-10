@@ -1,0 +1,37 @@
+apps: {}
+name: null
+settings:
+  ALLOWED_HOSTS:
+  - localhost
+  ANALYTICS_CONFIG: {}
+  AUTHENTICATION_BACKENDS: []
+  CAPTCHA_CONFIG:
+    RECAPTCHA_PRIVATE_KEY: null
+    RECAPTCHA_PUBLIC_KEY: null
+  CHANNEL_LAYERS:
+    default:
+      BACKEND: channels_redis.core.RedisChannelLayer
+      CONFIG:
+        hosts:
+        - - redis
+          - 6379
+  DATABASES:
+    default:
+      HOST: db
+      NAME: tethys_platform
+      PASSWORD: pass
+      PORT: 5432
+      USER: tethys_default
+  DEBUG: false
+  INSTALLED_APPS: []
+  OAUTH_CONFIG: {}
+  RESOURCE_QUOTA_HANDLERS: []
+  SECRET_KEY: d94xetW1KIxuPmEN08LFhuv3Sev3ITUCtx3QDXqJ7V7lt4y0uA
+  SESSION_CONFIG:
+    SECURITY_EXPIRE_AFTER: 1800
+    SECURITY_WARN_AFTER: 1500
+  TETHYS_PORTAL_CONFIG:
+    STATIC_ROOT: /var/lib/tethys_persist/static
+    TETHYS_WORKSPACES_ROOT: /var/lib/tethys_persist/workspaces
+site_content: {}
+version: 1.0

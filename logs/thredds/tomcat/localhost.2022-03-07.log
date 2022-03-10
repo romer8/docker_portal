@@ -1,0 +1,116 @@
+07-Mar-2022 00:44:38.659 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 00:44:40.304 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 00:44:47.683 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 00:44:48.008 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 00:58:13.166 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 00:58:14.899 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 00:58:22.136 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 00:58:22.599 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 00:58:48.800 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 00:58:48.803 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 00:58:48.806 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 00:58:49.364 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 00:59:28.340 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 00:59:29.601 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 00:59:35.389 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 00:59:35.768 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 01:00:01.883 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 01:00:01.886 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 01:00:01.887 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 01:00:02.441 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 01:03:06.401 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 01:03:06.966 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 01:03:09.970 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 01:03:10.112 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 01:03:33.976 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 01:03:33.980 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 01:03:33.983 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 01:03:34.527 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 01:04:06.848 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 01:04:08.053 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 01:04:13.688 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 01:04:13.891 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 01:05:20.331 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 01:05:20.333 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 01:05:20.335 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 01:05:20.876 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 01:07:16.094 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 01:07:17.293 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 01:07:22.584 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 01:07:22.956 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 01:07:49.197 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 01:07:49.200 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 01:07:49.201 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 01:07:49.751 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 01:14:07.918 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 01:14:09.327 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 01:14:15.711 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 01:14:15.984 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 01:23:05.227 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 01:23:05.229 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 01:23:05.230 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 01:23:05.786 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 01:24:22.017 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 01:24:23.616 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 01:24:30.379 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 01:24:30.695 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 01:24:56.898 I07-Mar-2022 01:44:12.980 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 01:44:14.263 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 01:44:19.862 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 01:44:20.174 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 02:25:20.378 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 02:25:20.380 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 02:25:20.382 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 02:25:20.933 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 02:27:16.788 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 02:27:18.044 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 02:27:23.574 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 02:27:23.985 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 02:37:35.899 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 02:37:35.902 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 02:37:35.904 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 02:37:36.501 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 03:09:58.156 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 03:09:59.497 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 03:10:05.278 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 03:10:05.524 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 03:35:47.039 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 03:35:47.041 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 03:35:47.042 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 03:35:47.614 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 03:40:12.182 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 03:40:13.536 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 03:40:19.233 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 03:40:19.546 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 04:27:31.797 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 04:27:31.800 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 04:27:31.802 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 04:27:32.386 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 04:32:55.596 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 04:32:56.896 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 04:33:02.957 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 04:33:03.243 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 04:38:15.908 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 04:38:17.307 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 04:38:23.162 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 04:38:23.460 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 04:59:56.331 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 04:59:56.339 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 04:59:56.349 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 04:59:56.968 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 18:40:36.012 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 18:40:37.304 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 18:40:42.808 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 18:40:43.086 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 18:42:29.711 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 18:42:29.714 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 18:42:29.715 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 18:42:30.263 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j
+07-Mar-2022 18:56:51.206 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log No Spring WebApplicationInitializer types detected on classpath
+07-Mar-2022 18:56:52.656 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring root WebApplicationContext
+07-Mar-2022 18:57:07.751 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'root'
+07-Mar-2022 18:57:07.999 INFO [localhost-startStop-1] org.apache.catalina.core.ApplicationContext.log Initializing Spring FrameworkServlet 'wms'
+07-Mar-2022 19:08:32.211 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'root'
+07-Mar-2022 19:08:32.214 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Destroying Spring FrameworkServlet 'wms'
+07-Mar-2022 19:08:32.215 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Closing Spring root WebApplicationContext
+07-Mar-2022 19:08:32.770 INFO [localhost-startStop-2] org.apache.catalina.core.ApplicationContext.log Shutting down log4j

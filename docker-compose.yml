@@ -1,0 +1,79 @@
+version: '3.2'
+
+services:
+  web:
+    image: tethys-portal-docker:3.4.1
+    build: .
+    restart: always
+    ports:
+      - '80:80'
+    networks:
+      - 'internal'
+      - 'external'
+    env_file:
+      - ./env/web.env
+
+    links:
+      - db
+    depends_on:
+      - db
+      - thredds
+      - geoserver
+      - redis
+    volumes:
+      - ./data/tethys:/var/lib/tethys_persist
+      - ./logs/tethys:/var/log/tethys
+  db:
+    image: postgres
+    restart: always
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    networks:
+      - 'internal'
+      - 'external'
+    ports:
+      - '5432:5432'
+    env_file:
+      - ./env/db.env
+
+  thredds:
+    image: unidata/thredds-docker:latest
+    restart: always
+    networks:
+      - 'internal'
+      - 'external'
+    ports:
+      - '8080:8080'
+    env_file:
+      - ./env/thredds.env
+    volumes:
+      - ./data/thredds/:/usr/local/tomcat/content/thredds
+      - ./logs/thredds/tomcat/:/usr/local/tomcat/logs/
+      - ./logs/thredds/thredds/:/usr/local/tomcat/content/thredds/logs/
+      - ./config/thredds/tomcat-users.xml:/usr/local/tomcat/conf/tomcat-users.xml
+
+  geoserver:
+    image: tethysplatform/geoserver:latest
+    volumes:
+      - ./data/geoserver:/opt/geoserver/data_dir
+    ports:
+      - 8081:8081
+    restart: on-failure
+    env_file:
+      - ./env/geoserver.env
+    networks:
+      - 'internal'
+      - 'external'
+
+  redis:
+    image: redis:latest
+    restart: always
+    networks:
+      - 'internal'
+    ports:
+      - '6379:6379'
+
+networks:
+  internal:
+    internal: true
+  external:
