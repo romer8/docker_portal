@@ -1,5 +1,5 @@
 # Use our Tethyscore base docker image as a parent image
-FROM tethysplatform/tethys-core:master
+FROM tethysplatform/tethys-core:3.4.1
 
 #########
 # SETUP #
@@ -52,10 +52,10 @@ RUN /bin/bash -c ". ${CONDA_HOME}/bin/activate tethys \
   ; cd /tethys_apps/reservoirs \
   ; tethys install -N"
 
-RUN ${CONDA_HOME}/bin/conda install -n tethys pip
+# RUN ${CONDA_HOME}/bin/conda install -n tethys pip
 
-RUN /bin/bash -c ". ${CONDA_HOME}/bin/activate tethys \
-  ;  pip install psycopg2==2.8.6"
+# RUN /bin/bash -c ". ${CONDA_HOME}/bin/activate tethys \
+#   ;  pip install psycopg2==2.8.6"
 
 ######################################################
 # CHANGE THE PROXY TIME REPLACING THE NGINX TEMPLATE #
@@ -91,7 +91,7 @@ EXPOSE 80
 ################
 
 ## Be sure to be inside the docker_files folder ##
-ADD /salt/ /srv/salt/
+ADD salt/ /srv/salt/
 
 #####################################
 # ADDITIONAL DATABASE CONFIGURATION #
@@ -109,4 +109,4 @@ ADD final_run.sh $HOME
 #######
 # RUN #
 #######
-CMD bash final_run.sh
+CMD bash run.sh
